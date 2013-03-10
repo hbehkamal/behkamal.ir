@@ -1,0 +1,68 @@
+html,body{
+    width: 100%;
+	height: 100%;
+ 	padding: 0;
+ 	margin: 0;
+	background-image: url('bgw.jpg');
+}
+table.head{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	margin-top: 60px;
+}
+table.b{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 20px;
+	background-color: #f63;
+	height:80px;
+}
+table.main{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 5px;
+	background-color: #fff;
+	height:800px;	
+	text-align: center;
+}
+a.head{
+	color: gray;
+	text-decoration: none;
+	font-size: 20px;
+}
+a.head:hover{
+	color: #f63;
+}
+p.head{
+	color: lightgray;
+}
+td.search{
+	text-align: right;	
+}
+td h2{
+	color: #fff;
+	padding-left: 10px;
+}
+td.head a{
+	text-decoration: none;
+	color: gray;
+	text-align: center;
+}
+td.head a:hover{
+	color:#f63;
+}
+td.head{
+	text-align: center;
+}
+a.link{
+	padding-left: 7px;
+}
+table.main img{
+	width: 280px;
+	text-align: center;
+	padding-left: 15px;
+}
