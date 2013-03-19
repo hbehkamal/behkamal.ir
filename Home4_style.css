@@ -1,0 +1,153 @@
+body{
+	background-color: rgb(253, 253, 253);
+}
+div.header{
+	text-align: center;
+}
+div.header menu{
+	text-align: center;
+	padding-left: 390px;
+	font-family:Arial,Helvetica,sans-serif;
+}
+li.header-li{
+	float: left;
+	padding-left: 15px;
+	border-right: 5px;
+	border-right-style: outset;
+	padding-right: 15px;
+}
+li.header-li a{
+	color: gray;
+	text-decoration: none;
+}
+li.header-li a:hover{
+	color: #f63;
+	background-color:  rgb(244, 245, 243)
+}
+.header-ul{
+	list-style-type: none;
+
+}
+div.image{
+	padding-top: 20px;
+}
+p.image{
+	text-align: center;
+}
+p.middle-up{
+	font-size: 23px;
+	text-align: center;
+}
+p.middle-down{
+	text-align: center;
+}
+table.text{
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid ;
+	border-right: none;
+	border-left: none;
+}
+td.res,.cloud,.set,.love{
+	text-align: center;
+	color: #515151;
+	font-size: 18px;
+	padding: 10px;
+}
+.res:hover{
+	background-color: rgb(244, 245, 243);
+}
+.cloud:hover{
+	background-color: rgb(244, 245, 243);
+}
+.set:hover{
+	background-color: rgb(244, 245, 243);
+}
+.love:hover{
+	background-color: rgb(244, 245, 243);
+}
+table.tbl-pics{
+	width: 1077px;
+	margin-left: 126px;
+	padding: 0;
+}
+div.pics{
+	margin-top: 10px;
+	margin-left: 126px;
+	margin-right: 126px;
+	cursor: default;
+}
+div.project .pic11{
+	display: none;
+
+}
+div.project:hover .pic11b{
+	display: none;
+}
+div.project:hover .pic11{
+	display: inline;
+
+}
+
+div.post .pic12{
+	display: none;
+
+}
+div.post:hover .pic12b{
+	display: none;
+}
+div.post:hover .pic12{
+	display: inline;
+
+}
+
+div.lightbox .pic13{
+	display: none;
+
+}
+div.lightbox:hover .pic13b{
+	display: none;
+}
+div.lightbox:hover .pic13{
+	display: inline;
+
+}
+
+div.gallery .pic14{
+	display: none;
+}
+div.gallery:hover .pic14b{
+	display: none;
+}
+div.gallery:hover .pic14{
+	display: inline;
+}
+.project ,.post ,.lightbox ,.gallery{
+	width: 215px;
+	float: left;
+	margin: 20px;
+}
+.pics p{
+	text-align: center;
+}
+p.big{
+	font-size: 25px;
+}
+.project:hover ,.post:hover ,.lightbox:hover ,.gallery:hover{
+	background-color: rgb(244, 245, 243);
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: gray;
+}
+div.up{
+	border-style: none;
+}
+.rpost{
+	float: none;
+}
+::selection{
+	background-color: #f63;
+	color: #fff;
+}
