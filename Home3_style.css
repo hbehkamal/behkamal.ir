@@ -1,9 +1,9 @@
 html,body{
-    width: 100%;
+	width: 100%;
 	height: 100%;
  	padding: 0;
  	margin: 0;
-	background-image: url('bgw.jpg');
+	background-image: url('images/bgw.jpg');
 }
 table.head{
 	width: 900px;
@@ -20,12 +20,18 @@ table.b{
 	background-color: #f63;
 	height:80px;
 }
+div.work{
+	background-image: url('images/bgb.jpg');
+}
+#work{
+	color:#f63;
+}
 table.main{
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;	
 	margin-top: 5px;
-	background-color: #fff;
+	background-color: rgb(145, 170, 167);
 	height:800px;	
 	text-align: center;
 }
@@ -37,11 +43,23 @@ a.head{
 a.head:hover{
 	color: #f63;
 }
+input.sb{
+	background-color:green;
+	border-color:green;
+	border-radius: 8px;
+	color: #fff;
+	cursor: pointer;
+}
+input.sb:hover{
+	background-color: lightgreen;
+	border-color: lightgreen;
+	color: #000;
+}
 p.head{
 	color: lightgray;
 }
 td.search{
-	text-align: right;	
+	text-align: right;
 }
 td h2{
 	color: #fff;
@@ -61,8 +79,104 @@ td.head{
 a.link{
 	padding-left: 7px;
 }
+p.ref{
+	text-align: right;
+	padding-right: 250px;
+}
+table.about-table{
+	color:rgb(159, 201, 209);
+	width: 900px;
+	background-image:url('images/bg-body.jpg');
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 5px;
+	font-size: 25px;
+	font-family: "Comic Sans MS", cursive, sans-serif	
+}
+table.about-table p.indent{
+	text-indent: 25px;
+}
 table.main img{
 	width: 280px;
 	text-align: center;
 	padding-left: 15px;
+}
+.img1b,.img2b,.img3b,.img4b,.img5b,.img6b,.img7b,.img8b,.img9b{
+	display: none;
+}
+.td1:hover .img1{
+	display: none;
+}
+.td1:hover .img1b{
+	display: inline;
+}
+.td2:hover .img2{
+	display: none;
+}
+.td2:hover .img2b{
+	display: inline;
+}
+.td3:hover .img3{
+	display: none;
+}
+.td3:hover .img3b{
+	display: inline;
+}
+.td4:hover .img4{
+	display: none;
+}
+.td4:hover .img4b{
+	display: inline;
+}
+.td5:hover .img5{
+	display: none;
+}
+.td5:hover .img5b{
+	display: inline;
+}
+.td6:hover .img6{
+	display: none;
+}
+.td6:hover .img6b{
+	display: inline;
+}
+.td7:hover .img7{
+	display: none;
+}
+.td7:hover .img7b{
+	display: inline;
+}
+.td8:hover .img8{
+	display: none;
+}
+.td8:hover .img8b{
+	display: inline;
+}
+.td9:hover .img9{
+	display: none;
+}
+.td9:hover .img9b{
+	display: inline;
+}
+ul.unstyled{
+	margin-left: 0;
+	list-style: none;
+}
+.font-c{
+	color: #0099bb;
+}
+.background-c{
+	color: #0099bb;
+}
+.skills-set{
+	list-style: none;
+	float: left;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	height: 12px;
+	font-size: 1em;
+}
+.w70{
+	width: 70%;
 }
