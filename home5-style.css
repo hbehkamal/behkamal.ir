@@ -1,0 +1,34 @@
+html,body{
+	width: 100%;
+	height: 100%;
+ 	padding: 0;
+ 	margin: 0;
+ }
+.up-header{
+	width: 100%;
+	height: 25px;
+	background-image: url("banner-blue.png");
+}
+.logo{
+	padding-top: 30px;
+	padding-left: 250px;
+	float: left;
+}
+.header{
+	background-image: url("bg-ui-gradient.png") ;
+	position: relative;
+}
+.header ul{
+	padding-top: 30px;
+	list-style-type: none;
+	padding-left: 200px;
+	margin-left: 400px;
+}
+.header li{
+	float: left;
+	padding: 20px;
+}
+.header li a{
+	text-decoration: none;
+	color: gray;
+}
